@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Forex Board</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Today's Exchange Rates</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Currency</th>
+        <th>Buying</th>
+        <th>Selling</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>USD</td>
+        <td id="usdBuy">3546</td>
+        <td id="usdSell">3795</td>
+      </tr>
+      <tr>
+        <td>GBP</td>
+        <td id="gbpBuy">4521</td>
+        <td id="gbpSell">4870</td>
+      </tr>
+      <tr>
+        <td>EUR</td>
+        <td id="eurBuy">3833</td>
+        <td id="eurSell">4185</td>
+      </tr>
+      <tr>
+        <td>KES</td>
+        <td id="kesBuy">26.25</td>
+        <td id="kesSell">29.95</td>
+      </tr>
+      <tr>
+        <td>TZS</td>
+        <td id="tzsBuy">1.12</td>
+        <td id="tzsSell">1.66</td>
+      </tr>
+      <tr>
+        <td>ZAR</td>
+        <td id="zarBuy">176.85</td>
+        <td id="zarSell">214.48</td>
+      </tr>
+      <tr>
+        <td>CNY</td>
+        <td id="cnyBuy">385.29</td>
+        <td id="cnySell">626.10</td>
+      </tr>
+      <tr>
+        <td>RWF</td>
+        <td id="rwfBuy">1.76</td>
+        <td id="rwfSell">3.82</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="form">
+    <h2>Update Rates</h2>
+    <div class="inputs">
+      <input type="number" id="usdBuyInput" placeholder="USD Buying">
+      <input type="number" id="usdSellInput" placeholder="USD Selling">
+
+      <input type="number" id="gbpBuyInput" placeholder="GBP Buying">
+      <input type="number" id="gbpSellInput" placeholder="GBP Selling">
+
+      <input type="number" id="eurBuyInput" placeholder="EUR Buying">
+      <input type="number" id="eurSellInput" placeholder="EUR Selling">
+
+      <input type="number" id="kesBuyInput" placeholder="KES Buying">
+      <input type="number" id="kesSellInput" placeholder="KES Selling">
+
+      <input type="number" id="tzsBuyInput" placeholder="TZS Buying">
+      <input type="number" id="tzsSellInput" placeholder="TZS Selling">
+
+      <input type="number" id="zarBuyInput" placeholder="ZAR Buying">
+      <input type="number" id="zarSellInput" placeholder="ZAR Selling">
+
+      <input type="number" id="cnyBuyInput" placeholder="CNY Buying">
+      <input type="number" id="cnySellInput" placeholder="CNY Selling">
+
+      <input type="number" id="rwfBuyInput" placeholder="RWF Buying">
+      <input type="number" id="rwfSellInput" placeholder="RWF Selling">
+    </div>
+    <button onclick="updateRates()">Update Rates</button>
+  </div>
+</div>
+
+<script src="script1.js"></script>
+</body>
+</html>
